@@ -9,7 +9,7 @@ public class HelloWorldController {
 	@GetMapping("/hello")
 	public String show() {
 		
-		return "hello world this is first projecttttt";
+		return "hello world this is first projectttttt";
 	} 
 
 }
