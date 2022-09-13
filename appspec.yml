@@ -20,7 +20,3 @@ hooks:
     - location: server_start.sh
       timeout: 50
       runas: ec2-user
-  ValidateService:
-    - location: server_validate.sh
-      timeout: 1000
-      runas: ec2-user
