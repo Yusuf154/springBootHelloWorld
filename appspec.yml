@@ -2,6 +2,6 @@ version: 0.0
 os: linux
 
 files:
-- source: /root/.m2/repository/com/e1/springBootHelloWorld/0.0.1-SNAPSHOT/springBootHelloWorld-0.0.1-SNAPSHOT.jar
+- source: /
     destination: /home/ec2-user/server
 
