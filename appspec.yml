@@ -3,5 +3,5 @@ os: linux
 
 files:
 - source: ./springBootHelloWorld-0.0.1-SNAPSHOT.jar
-    destination: /tmp
+    destination: /home/ec2-user/server
 
