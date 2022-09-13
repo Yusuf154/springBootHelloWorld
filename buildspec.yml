@@ -16,8 +16,6 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-     - build/**/*
-    # - location
-  #name: $(date +%Y-%m-%d)
+     - target/springBootHelloWorld-0.0.1-SNAPSHOT.jar
+    - appspec.yml
   discard-paths: yes
-  #base-directory: location
