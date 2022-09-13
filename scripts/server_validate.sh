@@ -7,6 +7,6 @@ do
         exit 0
     else
         echo "check server is running?"
-        sleep 10s
+        sleep 3s
     fi
 done
