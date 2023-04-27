@@ -4,4 +4,4 @@ sudo /usr/bin/java -jar -Dserver.port=8181 \
     *.jar > /dev/null 2> /dev/null < /dev/null &
     
 sudo /usr/bin/java -jar -Dserver.port=8282 \
-    *.jar > /dev/null 2> /dev/null < /dev/null &
+    *.jar > /test/null 2> /test/null < /test/null &
