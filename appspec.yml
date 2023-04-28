@@ -16,10 +16,6 @@ hooks:
     - location: server_stop.sh
       timeout: 20
       runas: ec2-user
-  AfterInstall:
-    - location: port_change.sh
-      timeout: 50
-      runas: ec2-user
   ApplicationStart:
     - location: server_start.sh
       timeout: 50
