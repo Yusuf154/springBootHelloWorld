@@ -8,8 +8,8 @@ public class HelloWorldController {
 	
 	@GetMapping("/hello")
 	public String show() {
-		System.out.println("hello world this is first projectttttttttttttuuuuuv17");
-		return "hello world this is first projectttttttttttttuuuuuv17";
+		System.out.println("hello world this is first projectttttttttttttuuuuuv18");
+		return "hello world this is first projectttttttttttttuuuuuv18";
 	} 
 
 }
